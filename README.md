@@ -38,5 +38,12 @@ setTimeout(() => el.remove(), 2000);
 });
 } catch (e) {
 alert('Error cleaning URL');
+
+## Quick Refresher: How to Update
+If you ever want to change the list of "junk" parameters (like adding a specific one from a site you frequent):
+Right-click the bookmark.
+Select Properties (or Edit).
+Look for the const junk = [...] section and add your new parameter in quotes.
+Enjoy your clutter-free links!
 }
 })();
